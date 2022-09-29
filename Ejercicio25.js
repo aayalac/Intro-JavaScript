@@ -1,0 +1,8 @@
+let frase = prompt("Escribe una frase: ")
+  .toLowerCase()
+  .replaceAll(" ","")
+  .replaceAll("a","4")
+  .replaceAll("e","3")
+  .replaceAll("i","1")
+  .replaceAll("o","0")
+console.log(frase)
