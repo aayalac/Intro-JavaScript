@@ -8,6 +8,6 @@ let prods = [
 { nombre: "Pan", precio: 3 },
 { nombre: "Tomate", precio: 8 },
 { nombre: "Leche", precio: 15 }
-];
+];  
 
 console.log(productosBaratos(prods)); // ["Arroz", "Tomate"]
